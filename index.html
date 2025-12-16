@@ -5,18 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Michaela Chludilová – UX/UI Designer</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
   </head>
+
   <body>
-    <header class="hero">
+    <section class="hero">
       <h1>Michaela Chludilová</h1>
       <h2>UX / UI designer</h2>
       <p>Navrhuji digitální produkty, které dávají smysl lidem i byznysu.</p>
       <a href="#contact" class="cta">Kontakt</a>
-    </header>
+    </section>
 
     <section class="about">
       <h3>About</h3>
@@ -36,20 +33,44 @@
     </section>
 
     <section class="projects">
+      <h3>Visual direction</h3>
+
+      <a
+        href="images/moodboard-preview.png"
+        class="project-card"
+        target="_blank"
+      >
+        <h4>Moodboard</h4>
+        <p>Barvy, typografie, layout vibe a vizuální inspirace.</p>
+      </a>
+    </section>
+
+    <section class="projects">
       <h3>Projects</h3>
 
       <div class="project-grid">
-        <div class="project-card">UX Case Study – Wellness App</div>
-        <div class="project-card">Redesign edukativního webu</div>
-        <div class="project-card">Osobní portfolio</div>
+        <a href="ukol-1/index.html" class="project-card">
+          <h4>Úkol 1 – Základní struktura webu</h4>
+          <p>HTML struktura a základní stylování.</p>
+        </a>
+
+        <a href="ukol-2/index.html" class="project-card">
+          <h4>Úkol 2 – Práce s DIV & SPAN</h4>
+          <p>Strukturování obsahu a práce s komponentami.</p>
+        </a>
+
+        <a href="ukol-3/index.html" class="project-card">
+          <h4>Úkol 3 – Layout & responzivita</h4>
+          <p>Grid, rozložení stránky a responzivní chování.</p>
+        </a>
       </div>
     </section>
 
-    <footer id="contact" class="contact">
+    <section class="contact" id="contact">
       <h3>Contact</h3>
-      <p>email@email.cz</p>
-      <p>LinkedIn</p>
-      <p>GitHub</p>
-    </footer>
+      <a href="mailto:email@email.cz">email@email.cz</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+    </section>
   </body>
 </html>
