@@ -1,76 +1,44 @@
 <!DOCTYPE html>
 <html lang="cs">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Michaela Chludilová – UX/UI Designer</title>
+    <meta charset="utf-8" />
+    <title>Seznam filmů</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <section class="hero">
-      <h1>Michaela Chludilová</h1>
-      <h2>UX / UI designer</h2>
-      <p>Navrhuji digitální produkty, které dávají smysl lidem i byznysu.</p>
-      <a href="#contact" class="cta">Kontakt</a>
-    </section>
+    <h1>Filmy — žánry a rok vydání</h1>
 
-    <section class="about">
-      <h3>About</h3>
-      <p>
-        Jsem UX/UI designérka se zájmem o přístupnost, strukturu obsahu a
-        smysluplné digitální produkty.
-      </p>
+    <table class="films-table" aria-label="Seznam filmů">
+      <thead>
+        <tr>
+          <th>Název</th>
+          <th>Žánr</th>
+          <th>Rok vydání</th>
+        </tr>
+      </thead>
 
-      <ul class="skills">
-        <li>UX research</li>
-        <li>Wireframing</li>
-        <li>Prototyping</li>
-        <li>Figma</li>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
-    </section>
-
-    <section class="projects">
-      <h3>Visual direction</h3>
-
-      <a
-        href="images/moodboard-preview.png"
-        class="project-card"
-        target="_blank"
-      >
-        <h4>Moodboard</h4>
-        <p>Barvy, typografie, layout vibe a vizuální inspirace.</p>
-      </a>
-    </section>
-
-    <section class="projects">
-      <h3>Projects</h3>
-
-      <div class="project-grid">
-        <a href="ukol-1/index.html" class="project-card">
-          <h4>Úkol 1 – Základní struktura webu</h4>
-          <p>HTML struktura a základní stylování.</p>
-        </a>
-
-        <a href="ukol-2/index.html" class="project-card">
-          <h4>Úkol 2 – Práce s DIV & SPAN</h4>
-          <p>Strukturování obsahu a práce s komponentami.</p>
-        </a>
-
-        <a href="ukol-3/index.html" class="project-card">
-          <h4>Úkol 3 – Layout & responzivita</h4>
-          <p>Grid, rozložení stránky a responzivní chování.</p>
-        </a>
-      </div>
-    </section>
-
-    <section class="contact" id="contact">
-      <h3>Contact</h3>
-      <a href="mailto:email@email.cz">email@email.cz</a>
-      <a href="#">LinkedIn</a>
-      <a href="#">GitHub</a>
-    </section>
+      <tbody>
+        <tr>
+          <td>Harry Potter a Kámen mudrců</td>
+          <td>Fantasy</td>
+          <td>2001</td>
+        </tr>
+        <tr>
+          <td>Letopisy Narnie: Lev, čarodějnice a skříň</td>
+          <td>Fantasy / Dobrodružný</td>
+          <td>2005</td>
+        </tr>
+        <tr>
+          <td>Eragon</td>
+          <td>Fantasy / Akční</td>
+          <td>2006</td>
+        </tr>
+        <tr>
+          <td>Stopařův průvodce po Galaxii</td>
+          <td>Sci-fi / Komedie</td>
+          <td>2005</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
