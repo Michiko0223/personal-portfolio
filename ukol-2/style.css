@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+.wrap {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-areas: "hlavicka hlavicka" "menu obsah" "paticka paticka";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80px 1fr 300px;
+}
+header {
+  grid-area: hlavicka;
+  background-color: rgb(255, 0, 0, 0.2);
+}
+aside {
+  grid-area: menu;
+  background-color: rgba(0, 128, 0, 0.2);
+}
+main {
+  grid-area: obsah;
+  background-color: rgba(255, 255, 0, 0.2);
+}
+footer {
+  grid-area: paticka;
+  background-color: rgba(0, 0, 255, 0.2);
+}
